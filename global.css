@@ -1,0 +1,280 @@
+* { margin: 0; padding: 0; }
+
+body {
+background: #e6e6e6;
+color: #000;
+text-align: center;
+line-height: 1.4;
+margin: 0;
+font-family: Arial, Verdana, Sans-Serif;
+font-size: 13px;
+}
+
+.container { width: 1200px; margin: auto;}
+
+.stats {
+    width: 49%;
+    border: 1px solid #c0c0c0;
+  text-align: left;
+	border: 1px solid black;
+	background: #ffffff url(http://forum.informatop.com/images/cmsbb/trow.png) top left repeat-x;
+	font-size: 13px;
+	text-shadow: 1px 1px #fff;
+	float: left;
+}
+
+.bas_stats
+{
+    width: 100%;
+	text-align: center;
+	border-top: 1px solid black;
+	background: #ffffff url(http://forum.informatop.com/images/cmsbb/trow.png) top left repeat-x;
+	font-size: 13px;
+	text-shadow: 1px 1px #fff;
+	float: left;
+}
+
+.ajouter
+{
+    width: 49%;
+	height: 160px;
+    border: 1px solid #c0c0c0;
+	text-align: left;
+	border: 1px solid black;
+	background: #ffffff url(http://forum.informatop.com/images/cmsbb/trow.png) top left repeat-x;
+	font-size: 13px;
+	text-shadow: 1px 1px #fff;
+	float: right;
+	overflow-x: hidden; 
+	overflow-y: scroll;
+}
+
+.commandes
+{
+    width: 100%;
+    border: 1px solid #c0c0c0;
+	text-align: left;
+	border: 1px solid black;
+	background: #ffffff url(http://forum.informatop.com/images/cmsbb/trow.png) top left repeat-x;
+	font-size: 13px;
+	text-shadow: 1px 1px #fff;
+}
+
+.dragon 
+{
+	background: url('logo.png') no-repeat;
+	width: 400px;
+	height: 340px;
+	position: fixed;
+	right: 5px;
+	opacity: 0.2;
+}
+
+p { padding: 5px; }
+
+#navigation {
+	background: #e5e5e5 url(http://forum.informatop.com/images/cmsbb/navbg.png) repeat-x;
+	color: #757575;
+	height: 30px;
+	line-height: 30px;
+	border-bottom: 1px solid #cecece;
+	text-align: left;
+	text-shadow: 0 -1px #fff;
+}
+
+.navigation {
+width: 85%;
+margin: 0 auto;
+font-weight: bold;
+}
+
+.float_right {
+float: right;
+}
+
+.titre {
+background: #06b4e6 url(http://forum.imaginr-design.net/images/cmsbb/thead.png) top left repeat-x;
+color: #000;
+padding: 6px;
+border-bottom: 1px solid #8a8a8a;
+-moz-box-shadow: inset 0 0 1px #fff;
+-webkit-box-shadow: inset 0 0 1px #fff;
+box-shadow: inset 0 0 1px #fff;
+text-shadow: 1px 1px #6dd6f4;
+text-transform: uppercase;
+}
+
+th 
+{
+    font-size: 13px;
+    font-weight: normal;
+    padding: 8px;
+    background: #b9c9fe url('http://4.bp.blogspot.com/_xDpoN6UfFFY/S-J2gjh1nPI/AAAAAAAACbg/7lNsVpks2oY/s1600/gradhead.png') repeat-x;
+    border-top: 2px solid #d3ddff;
+    border-bottom: 1px solid #fff;
+    color: #039;
+}
+
+td 
+{
+    padding: 8px;
+    border-bottom: 1px solid #fff;
+    color: #669;
+    border-top: 1px solid #fff;
+    background: #e8edff url('http://1.bp.blogspot.com/_xDpoN6UfFFY/S-J2f5yBC3I/AAAAAAAACbY/zWXYXsR-w5E/s1600/gradback.png') repeat-x;
+}
+
+tfoot tr td 
+{
+    background: #e8edff;
+    font-size: 16px;
+    color: #99c;
+    text-align:center;
+}
+
+tbody tr:hover td 
+{
+    background: #d0dafd url('http://4.bp.blogspot.com/_xDpoN6UfFFY/S-J2hsztUzI/AAAAAAAACbo/ztV1CK0RUrE/s1600/gradhover.png') repeat-x;
+    color: #339;
+}
+
+#logo { width: 242px; height: 143px; margin: auto; }
+
+.fancyNav{
+	/* Affects the UL element */
+	overflow: hidden;
+	display: inline-block;
+}
+
+.fancyNav li{
+	/* Specifying a fallback color and we define CSS3 gradients for the major browsers: */
+	
+	background-color: #f0f0f0;
+	background-image: -webkit-gradient(linear,left top, left bottom,from(#fefefe), color-stop(0.5,#f0f0f0), color-stop(0.51, #e6e6e6));
+	background-image: -moz-linear-gradient(#fefefe 0%, #f0f0f0 50%, #e6e6e6 51%);
+	background-image: -o-linear-gradient(#fefefe 0%, #f0f0f0 50%, #e6e6e6 51%);
+	background-image: -ms-linear-gradient(#fefefe 0%, #f0f0f0 50%, #e6e6e6 51%);
+	background-image: linear-gradient(#fefefe 0%, #f0f0f0 50%, #e6e6e6 51%);
+	
+	border-right: 1px solid rgba(9, 9, 9, 0.125);
+	
+	/* Adding a 1px inset highlight for a more polished efect: */
+	
+	box-shadow: 1px -1px 0 rgba(255, 255, 255, 0.6) inset;
+	-moz-box-shadow: 1px -1px 0 rgba(255, 255, 255, 0.6) inset;
+	-webkit-box-shadow: 1px -1px 0 rgba(255, 255, 255, 0.6) inset;
+	
+	position:relative;
+	
+	float: left;
+	list-style: none;
+}
+
+.fancyNav li:after{
+
+	/* This creates a pseudo element inslide each LI */	
+	
+	content:'.';
+	text-indent:-9999px;
+	overflow:hidden;
+	position:absolute;
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+	z-index:1;
+	opacity:0;
+	
+	/* Gradients! */
+	
+	background-image:-webkit-gradient(linear, left top, right top, from(rgba(168,168,168,0.5)),color-stop(0.5,rgba(168,168,168,0)), to(rgba(168,168,168,0.5)));
+	background-image:-moz-linear-gradient(left, rgba(168,168,168,0.5), rgba(168,168,168,0) 50%, rgba(168,168,168,0.5));
+	background-image:-o-linear-gradient(left, rgba(168,168,168,0.5), rgba(168,168,168,0) 50%, rgba(168,168,168,0.5));
+	background-image:-ms-linear-gradient(left, rgba(168,168,168,0.5), rgba(168,168,168,0) 50%, rgba(168,168,168,0.5));
+	background-image:linear-gradient(left, rgba(168,168,168,0.5), rgba(168,168,168,0) 50%, rgba(168,168,168,0.5));
+	
+	/* Creating borders with box-shadow. Useful, as they don't affect the size of the element. */
+	
+	box-shadow:-1px 0 0 #a3a3a3,-2px 0 0 #fff,1px 0 0 #a3a3a3,2px 0 0 #fff;
+	-moz-box-shadow:-1px 0 0 #a3a3a3,-2px 0 0 #fff,1px 0 0 #a3a3a3,2px 0 0 #fff;
+	-webkit-box-shadow:-1px 0 0 #a3a3a3,-2px 0 0 #fff,1px 0 0 #a3a3a3,2px 0 0 #fff;
+	
+	/* This will create a smooth transition for the opacity property */
+	
+	-moz-transition:0.25s all;
+	-webkit-transition:0.25s all;
+	-o-transition:0.25s all;
+	transition:0.25s all;
+}
+
+/* Treating the first LI and li:after elements separately */
+
+.fancyNav li:first-child{
+	border-radius: 4px 0 0 4px;
+}
+
+.fancyNav li:first-child:after,
+.fancyNav li.selected:first-child:after{
+	box-shadow:1px 0 0 #a3a3a3,2px 0 0 #fff;
+	-moz-box-shadow:1px 0 0 #a3a3a3,2px 0 0 #fff;
+	-webkit-box-shadow:1px 0 0 #a3a3a3,2px 0 0 #fff;
+	
+	border-radius:4px 0 0 4px;
+}
+
+.fancyNav li:last-child{
+	border-radius: 0 4px 4px 0;
+}
+
+/* Treating the last LI and li:after elements separately */
+
+.fancyNav li:last-child:after,
+.fancyNav li.selected:last-child:after{
+	box-shadow:-1px 0 0 #a3a3a3,-2px 0 0 #fff;
+	-moz-box-shadow:-1px 0 0 #a3a3a3,-2px 0 0 #fff;
+	-webkit-box-shadow:-1px 0 0 #a3a3a3,-2px 0 0 #fff;
+	
+	border-radius:0 4px 4px 0;
+}
+
+.fancyNav li:hover:after,
+.fancyNav li.selected:after,
+.fancyNav li:target:after{
+	/* This property triggers the CSS3 transition */
+	opacity:1;
+}
+
+.fancyNav:hover li.selected:after,
+.fancyNav:hover li:target:after{
+	/* Hides the targeted li when we are hovering on the UL */
+	opacity:0;
+}
+
+.fancyNav li.selected:hover:after,
+.fancyNav li:target:hover:after{
+	opacity:1 !important;
+}
+
+/* Styling the anchor elements */
+
+.fancyNav li a{
+	color: #5d5d5d;
+	display: inline-block;
+	font: 20px/1 Lobster,Arial,sans-serif;
+	padding: 12px 35px 14px;
+	position: relative;
+	text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.6);
+	z-index:2;
+	text-decoration:none !important;
+	white-space:nowrap;
+}
+
+.fancyNav a.homeIcon{
+	background:url('home.png') no-repeat center center;
+	display: block;
+	overflow: hidden;
+	padding-left: 12px;
+	padding-right: 12px;
+	text-indent: -9999px;
+	width: 16px;
+}
